@@ -1,16 +1,24 @@
 {
   "name": "js-promesify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Convert Nodejs style callback based functions to promises",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^3.5.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ezequielzacca/js-promesify"
+  },
+  "keywords": [
+    "callbacks",
+    "promises",
+    "node"
+  ]
 }

@@ -5,6 +5,7 @@ With promesify you can easily convert any Node callback based function to a prom
 ### Example
 
 Given any callback based function, e.g.:
+
 ```typescript
 export const asyncRandom = (min: number, max: number, cb: (err, res) => any) => {
   setTimeout(() => {
@@ -44,7 +45,9 @@ app.get('/cb', (req, res) => {
 
   With `promesifyjs` that code would be much more cleaner.
 
-  ```typescript
+  
+
+```typescript
 app.get('/promise', async (req, res) => {
     try {
         let min = await Promisefy<number>(asyncRandom, 1, 10);
@@ -61,12 +64,14 @@ app.get('/promise', async (req, res) => {
 });
   ```
 
-  ## Installation
+## Installation
 
-  `npm i -s promesify-js`
+ `npm i -s promesify-js` 
   
-  ## Usage
+
+## Usage
 
 ```typescript
 import { Promesify } from "js-promesify";
 ```
+
