@@ -68,5 +68,5 @@ app.get('/promise', async (req, res) => {
   ## Usage
 
 ```typescript
-import { Promesify } from "promesify-js";
+import { Promesify } from "js-promesify";
 ```
