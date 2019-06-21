@@ -66,7 +66,7 @@ app.get('/promise', async (req, res) => {
 
 ## Installation
 
- `npm i -s promesify-js` 
+ `npm i -s js-promesify` 
   
 
 ## Usage
