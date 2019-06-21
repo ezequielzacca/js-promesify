@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function Promisefy(f) {
     var params = [];
     for (var _i = 1; _i < arguments.length; _i++) {
@@ -13,3 +14,4 @@ function Promisefy(f) {
             }]));
     });
 }
+exports.Promisefy = Promisefy;
