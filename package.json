@@ -1,9 +1,10 @@
 {
   "name": "js-promesify",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Convert Nodejs style callback based functions to promises",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "typings": "./dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
