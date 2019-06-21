@@ -1,7 +1,7 @@
 {
-  "name": "promesify",
+  "name": "promesifyjs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Convert Nodejs style callback based functions to promises",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
