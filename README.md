@@ -50,9 +50,9 @@ app.get('/cb', (req, res) => {
 ```typescript
 app.get('/promise', async (req, res) => {
     try {
-        let min = await Promisefy<number>(asyncRandom, 1, 10);
-        let max = await Promisefy<number>(asyncRandom, 80, 90);
-        let num = await Promisefy<number>(asyncRandom, min, max);
+        let min = await Promesify<number>(asyncRandom, 1, 10);
+        let max = await Promesify<number>(asyncRandom, 80, 90);
+        let num = await Promesify<number>(asyncRandom, min, max);
         return res.json({
             number: num
         });
