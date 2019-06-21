@@ -1,4 +1,4 @@
-# Promesify JS
+# Promesify-JS
 
 With promesify you can easily convert any Node callback based function to a promise
 
@@ -60,3 +60,13 @@ app.get('/promise', async (req, res) => {
     }
 });
   ```
+
+  ## Installation
+
+  `npm i -s promesify-js`
+  
+  ## Usage
+
+```typescript
+import { Promesify } from "promesify-js";
+```

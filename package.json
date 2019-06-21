@@ -1,5 +1,5 @@
 {
-  "name": "promesifyjs",
+  "name": "promesify-js",
   "version": "1.0.0",
   "description": "Convert Nodejs style callback based functions to promises",
   "main": "dist/index.js",
@@ -14,3 +14,4 @@
     "typescript": "^3.5.2"
   }
 }
+
