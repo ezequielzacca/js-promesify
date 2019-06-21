@@ -1,4 +1,4 @@
-# Promesify-JS
+# JS Promesify
 
 With promesify you can easily convert any Node callback based function to a promise
 
